@@ -97,9 +97,531 @@ body{
 }
 
 /* nav styling ends */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "FFDINforPuma",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.fd {
+    display: flex;
+    flex-direction: column;
+}
+.align {
+    align-items: center;
+}
+.jc {
+    justify-content: center;
+}
+.blk_bg {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    font-family: "FFDINforPuma",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 500;
+}
+.hero_bg {
+    background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_2000/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E24SS%7ERUN+TRAIN%7EPUMA+X+LEMLEM%7E24SS_ECOM_TRAIN_LemLem_Group_Full-Bleed-Hero_Large_Desk_1440x500px.jpg/fmt/jpg/fmt/png);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.hero_text {
+    align-items: flex-end;
+    margin-right: 100px;
+    gap: 5px;
+}
+.hero_text b {
+    font-size: 3em;
+}
+.hero_text span {
+    font-size: 1.2em;
+}
+button {
+    width: 100px;
+    height: 45px;
+    border: none;
+    font-weight: 600;
+}
+.four_col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 95%;
+    margin: auto;
+    gap: 15px;
+    margin-top: 10px;
+}
+.shoe_img {
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/379570/02/sv01/fnd/DFA/fmt/png/PWR-NITRO%E2%84%A2-SQD-LEMLEM-Training-Shoes-Women);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shoe_img1 {
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/525010/83/mod01/fnd/DFA/fmt/png/PUMA-x-lemlem-Women);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shoe_img2 {
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/525012/82/mod01/fnd/DFA/fmt/png/PUMA-x-lemlem-Women);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shoe_img3 {
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/525014/25/mod01/fnd/DFA/fmt/png/PUMA-x-lemlem-Women);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text {
+    align-items: first baseline;
+    font-weight: 700;
+    justify-content: space-between;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.woman {
+    background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_2000/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E24SS%7ESPORTSTYLE%7EPUMA+X+PAM%7E24SS_SP_Select_PAM_Full-Bleed-Hero_Large_Desk_1440x500px_Model_2.jpg/fmt/jpg/fmt/png);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.woman b {
+    font-size: 3.5em;
+}
+.woman span {
+    font-size: 1.2em;
+}
+.space {
+    margin-top: 20px;
+}
+.two_col {
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0;
+}
+.woman_one {
+    background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_2000/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7ESPORTSTYLE%7EThe+Ragged+Priest%7E23SS_ECOM_MF_SP_SELECT_RAGGED-PRIEST_FeatureHero_TabMob_Large_1536x1536_1.jpg/fmt/jpg/fmt/png);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.woman_two {
+    background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_2000/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7EAW23%7ESPORTSTYLE%7ECALI+COURT%7E23AW_Ecom_MF_SP_Cali-Court_LTH_TrendingInline_TabMob_1536x1536_Model_2.jpg/fmt/jpg/fmt/png);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rag {
+    margin-top: 30px;
+}
+.rag b {
+    font-size: 1.3em;
+}
+.rag p {
+    margin: 10px 0;
+}
+.blk {
+    background-color: black;
+    color: white;
+}
+.hero_four {
+    background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_2000/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7EAW23%7EFITNESS-TRAINING%7EAW23+PUMA+FIT%7E23AW_Ecom_RT_Puma-Fit_Q3_Full-Bleed-Hero_Large_Desk_1440x500px_Reif.jpg/fmt/jpg/fmt/png);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+.fit {
+    margin-left: 100px;
+}
+.fit p {
+    margin: 5px 0;
+}
+.mid {
+    font-size: 1.5em;
+}
+.shoes {
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/107165/01/sv01/fnd/DFA/fmt/png/FUTURE-ULTIMATE-FG/AG-Football-Boots);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shoes1 {
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/310511/01/sv01/fnd/DFA/fmt/png/MB.03-Miami-Basketball-Shoes);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shoes2 {
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/396037/01/sv01/fnd/DFA/fmt/png/PUMA-x-PLEASURES-Spirex-Sneakers);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shoes3 {
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/307171/01/sv01/fnd/DFA/fmt/png/PUMA-x-SPARCO-Speedcat-OG-Driving-Shoes);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gap {
+    margin-bottom: 40px;
+}
+.none2 {
+    display: none;
+}
 
+@media screen and (max-width: 1024px) {
+    .hero_bg {
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        justify-content: start;
+    }
+    .hero_text {
+        align-items: center;
+        margin: 0;
+    }
+    .shoe_img {
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+    .shoe_img1 {
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+    .none {
+        display: none;
+    }
+    .four_col {
+        grid-template-columns: 1fr 1fr;
+    }
+    .woman {
+        background-position: center;
+        background-size: contain;
+        height: 400px;
+        align-items: flex-start;
+    }
+    .woman_text {
+        margin-top: 30px;
+    }
+    .woman_one {
+        background-size: contain;
+        height: 500px;
+    }
+    .woman_two {
+        background-size: contain;
+        height: 500px;
+    }
+    .hero_four {
+        background-size: contain;
+        height: 400px;
+        justify-content: flex-start;
+    }
+    .fit {
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+    .fit p {
+        margin: 20px 0;
+    }
+    .shoes {
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+    .shoes1 {
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+}
 
-
+@media screen and (max-width: 768px) {
+    .blk_bg {
+        padding: 5px;
+    }
+    .hero_bg {
+        background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_900/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E24SS%7ERUN+TRAIN%7EPUMA+X+LEMLEM%7E24SS_ECOM_TRAIN_LemLem_Group_Full-Bleed-Hero_Large_Tab-Mob_1536x1536px.jpg/fmt/jpg/fmt/png);
+        height: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        justify-content: end;
+    }
+    .hero_text {
+        margin: 20px 0;
+    }
+    .hero_text b{
+        font-size: 1.6em;
+    }
+    .hero_text span {
+        font-size: 1.2em;
+    }
+    .hero_text button {
+        background-color: black;
+        color: white;
+    }
+    .shoe_img {
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+    .shoe_img1 {
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+    .woman {
+        background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_900/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E24SS%7ESPORTSTYLE%7EPUMA+X+PAM%7E24SS_SP_Select_PAM_Full-Bleed-Hero_Large_Tab-Mob_1536x1536px_Model_2.jpg/fmt/jpg/fmt/png);
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+        /* align-items: flex-start; */
+    }
+    .woman_text b {
+        font-size: 1.7em;
+    }
+    .woman_text button {
+        background-color: black;
+        color: white;
+    }
+    .one_column {
+        grid-template-columns: 1fr;
+    }
+    .no_d {
+        display: none;
+    }
+    .none2 {
+        display: block;
+    }
+    .hero_three {
+        width: 95%;
+        margin: auto;
+    }
+    .woman_one {
+        background-position: center;
+        background-size: contain;
+        height: 400px;
+    }
+    .woman_two {
+        background-position: center;
+        background-size: contain;
+        height: 400px;
+    }
+    .rag {
+        margin: 5px;
+    }
+    .rag p{
+        margin: 5px;
+    }
+    .rag b{
+        width: 80%;
+        text-align: center;
+    }
+    .hero_four {
+        background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_900/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7EAW23%7EFITNESS-TRAINING%7EAW23+PUMA+FIT%7E23AW_Ecom_RT_Puma-Fit_Q3_Full-Bleed-Hero_Large_Tab-Mob_1536x1536px_Reif.jpg/fmt/jpg/fmt/png);
+        background-position: center;
+        background-size: cover;
+        height: 800px; 
+    }
+    .fit p {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .fit button {
+        background-color: black;
+        color: white;
+    }
+    .mid {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .shoes {
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+    .shoes1 {
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+}
+@media (min-width: 319px) and (max-width: 376px) {
+    .blk_bg p {
+        font-size: .7em;
+        width: 90%;
+        text-align: center;
+    }
+    .blk_bg {
+        padding: 2px;
+    }
+    .hero_bg {
+        background-size: cover;
+        background-position: top;
+        height: 360px;
+    }
+    .four_col {
+        margin-bottom: 30px;
+    }
+    .shoe_img {
+        background-size: contain;
+        height: 150px;
+    }
+    .shoe_img1 {
+        background-size: contain;
+        height: 150px;
+    }
+    .text {
+        font-size: .8em;
+        display: flex;
+        flex-direction: column;
+    }
+    .woman {
+        height: 300px;
+    }
+    .woman_text {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+    }
+    .two_col {
+        grid-template-columns: 1fr;
+    }
+    .woman_two {
+        height: 350px;
+    }
+    .woman_one {
+        height: 350px;
+    }
+    .hero_four {
+        height: 350px;
+    }
+    .fit p{
+        margin: 10px 0;
+    }
+    .shoes {
+        background-size: contain;
+        height: 150px;
+    }
+    .shoes1 {
+        background-size: contain;
+        height: 150px;
+    }
+    .text {
+        font-size: .8em;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 426px) {
+    nav {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    .blk_bg p {
+        font-size: .5em;
+        width: 70%;
+        text-align: center;
+    }
+    .blk_bg {
+        padding: 10px;
+    }
+    .hero_bg {
+        background-size: cover;
+        background-position: top;
+        height: 350px;
+    }
+    .four_col {
+        margin-bottom: 30px;
+    }
+    .shoe_img {
+        background-size: contain;
+        height: 150px;
+    }
+    .shoe_img1 {
+        background-size: contain;
+        height: 150px;
+    }
+    .text {
+        font-size: .8em;
+        display: flex;
+        flex-direction: column;
+    }
+    .woman {
+        height: 300px;
+    }
+    .woman_text {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+    }
+    .two_col {
+        grid-template-columns: 1fr;
+    }
+    .woman_two {
+        height: 350px;
+    }
+    .woman_one {
+        height: 350px;
+    }
+    .hero_four {
+        height: 350px;
+    }
+    .fit p{
+        margin: 10px 0;
+    }
+    .shoes {
+        background-size: contain;
+        height: 150px;
+    }
+    .shoes1 {
+        background-size: contain;
+        height: 150px;
+    }
+    .text {
+        font-size: .8em;
+        display: flex;
+        flex-direction: column;
+    }
+} 
 
 /* footer starts */
 
